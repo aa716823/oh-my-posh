@@ -38,6 +38,14 @@
         },
         {
           "background": "#ffc107",
+          "foreground": "#fff",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": "<#fff> \ue641 </>{{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        },
+        {
+          "background": "#ffc107",
           "foreground": "#18354c",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
